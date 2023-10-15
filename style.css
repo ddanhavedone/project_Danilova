@@ -3,6 +3,7 @@ html
   height: 100%;
   width: 100%;
 }
+
 .page
 {
     display: flex;
@@ -13,6 +14,7 @@ html
     background: #ffff;
     margin: auto;
     position: relative;
+overflow-x: hidden;
 }
 .section
 {
@@ -196,7 +198,7 @@ html
 
 .card__text_width
 {
-    width: 500px;
+    
 }
 .footer_section
 {
@@ -235,4 +237,202 @@ html
     font-weight: 400;
     line-height: 16px; /* 160% */
     letter-spacing: 0.25px;
+}
+@media screen and (max-width: 320px)
+{
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .page
+    {
+        width: 320px;
+	overflow-x: hidden;
+    }
+    .section0
+    {
+        width: 280px;
+        height: 504px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .section1
+    {
+        width: 280px;
+        height: 524px;
+        padding: 16px 20px 24px;
+    }
+    .section2
+    {
+        width: 280px;
+        height: 612px;
+        padding: 16px 20px 24px;
+    }
+    .section3
+    {
+        height: 442px;
+        width: 320px;
+    }
+    .section4
+    {
+        height: 572px;
+        width: 320px;
+    }
+    .header
+    {
+        width: 280px;
+        height: 168px;
+    }
+    .logo
+    {
+        width: 170px;
+        height: 20px;
+    }
+    .title
+    {
+        width: 170px;
+        height: 64px;
+        padding-bottom: 16px;
+    }
+    .issue
+    {
+        width: 170px;
+        height: 26px;
+        margin: 0;
+        padding: 0;
+    }
+    .hero-image
+    {
+        width: 100px;
+        height: 100px;
+    }
+    .intro-section
+    {
+        width: 280px;
+        height: 296px;
+
+    }
+    .text
+    {
+        align-self: stretch;
+        color: #4E4B66;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px; /* 157.143% */
+        letter-spacing: 0.25px;
+       
+    }
+    .text__padding_top
+    {
+        padding-top: 16px;
+        padding-right: 16px;
+    }
+    .text__padding
+    {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .text__padding_buttom
+    {
+        padding-bottom: 16px;
+    }
+    .text__link_padding
+    {
+        padding-bottom: 8px;
+    }
+    .intro__text
+    {
+        align-self: stretch;
+        color: #4E4B66;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px; /* 157.143% */
+        letter-spacing: 0.25px;
+    }
+    .intro__text_s
+    {
+        align-self: stretch;
+        color: #4E4B66;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px; /* 157.143% */
+        letter-spacing: 0.25px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        width: 280px;
+    }
+    .intro__text_italic
+    {
+        color: #0576F0;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 22px; /* 157.143% */
+        letter-spacing: 0.25px;
+    }
+
+    .news__section
+    {
+        width: 248px;
+        height: 572px;
+        padding: 16px 16px 24px;
+        padding-right: 16px;
+        align-items: flex-start;
+        display: flex;
+    }
+    .heading
+    {
+        width: 248px;
+        height: 40px;
+    }
+    .text__number
+    {
+
+    }
+    .rectangle
+    {
+        
+    }
+    .news__title
+    {
+       
+    }
+    .card__text_align
+    {
+        
+    }
+    .card__text_link
+    {
+        
+    }
+
+    .text3
+    {
+        width: 250px;
+    }
+    .footer_section
+    {
+        width: 280px;
+        height: 94px;
+        padding: 16px 20px 32px;
+    }
+    .footer
+    {
+      
+    }
+    .snetworks
+    {
+        
+    }
+    .footer__text
+    {
+        
+    }
 }
