@@ -14,7 +14,6 @@ html
     background: #ffff;
     margin: auto;
     position: relative;
-overflow-x: hidden;
 }
 .section
 {
@@ -23,6 +22,7 @@ overflow-x: hidden;
     flex-direction: column;
     align-items: center;
     background: #F7F7FC;
+    overflow-x: hidden;
 }
 .section__base1
 {
@@ -31,6 +31,7 @@ overflow-x: hidden;
     align-items: center;
     gap: 10px;
     background: #EFF0F6;
+    overflow-x: hidden;
 }
 .section__base2
 {
@@ -40,6 +41,7 @@ overflow-x: hidden;
     flex-direction: column;
     align-items: center;
     background: #F7F7FC;
+    overflow-x: hidden;
 }
 .header
 {
@@ -247,7 +249,7 @@ overflow-x: hidden;
     .page
     {
         width: 320px;
-	overflow-x: hidden;
+        overflow-x: hidden;
     }
     .section0
     {
@@ -255,28 +257,33 @@ overflow-x: hidden;
         height: 504px;
         padding-left: 20px;
         padding-right: 20px;
+        overflow-x: hidden;
     }
     .section1
     {
         width: 280px;
         height: 524px;
         padding: 16px 20px 24px;
+        overflow-x: hidden;
     }
     .section2
     {
         width: 280px;
         height: 612px;
         padding: 16px 20px 24px;
+        overflow-x: hidden;
     }
     .section3
     {
         height: 442px;
         width: 320px;
+        overflow-x: hidden;
     }
     .section4
     {
-        height: 572px;
+        height: 552px;
         width: 320px;
+        overflow-x: hidden;
     }
     .header
     {
@@ -387,6 +394,10 @@ overflow-x: hidden;
         align-items: flex-start;
         display: flex;
     }
+    .news4__section
+    {
+        height: 552px;
+    }
     .heading
     {
         width: 248px;
@@ -422,6 +433,7 @@ overflow-x: hidden;
         width: 280px;
         height: 94px;
         padding: 16px 20px 32px;
+        overflow-x: hidden;
     }
     .footer
     {
