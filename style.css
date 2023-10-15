@@ -1,3 +1,8 @@
+html 
+{
+  height: 100%;
+  width: 100%;
+}
 .page
 {
     display: flex;
@@ -6,11 +11,30 @@
     justify-content: flex-end;
     align-items: flex-start;
     background: #ffff;
+    margin: auto;
+    position: relative;
 }
-.section0
+.section
 {
     display: flex;
     width: 1920px;
+    flex-direction: column;
+    align-items: center;
+    background: #F7F7FC;
+}
+.section__base1
+{
+    padding: 16px 0px 24px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: #EFF0F6;
+}
+.section__base2
+{
+    display: flex;
+    width: 1920px;
+    padding: 16px 0px 24px 0px;
     flex-direction: column;
     align-items: center;
     background: #F7F7FC;
@@ -90,7 +114,7 @@
     line-height: 22px; /* 157.143% */
     letter-spacing: 0.25px;
 }
-.text__intro
+.intro__text
 {
     color: #4E4B66;
     font-style: normal;
@@ -98,27 +122,18 @@
     height: auto;
     gap: 16px;
 }
-.text__intro_s
+.intro__text_s
 {
     color: #4E4B66;
     font-style: normal;
     width: 550px;
 }
-.text__intro_italic
+.intro__text_italic
 {
     color: #0576F0;
     font-style: italic;
 }
-.section1
-{
-    display: flex;
-    width: 1920px;
-    padding: 16px 0px 24px 0px;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    background: #EFF0F6;
-}
+
 .news__section
 {
     display: flex;
@@ -163,11 +178,11 @@
     line-height: 20px; /* 125% */
     letter-spacing: 0.5px;
 }
-.text__card01
+.card__text_align
 {
     align-self: stretch;
 }
-.text__link
+.card__text_link
 {
     color: #0576F0;
     font-family: Poppins;
@@ -178,16 +193,8 @@
     letter-spacing: 0.25px;
     text-decoration-line: underline;
 }
-.section2
-{
-    display: flex;
-    width: 1920px;
-    padding: 16px 0px 24px 0px;
-    flex-direction: column;
-    align-items: center;
-    background: #F7F7FC;
-}
-.text__card_width
+
+.card__text_width
 {
     width: 500px;
 }
@@ -216,9 +223,10 @@
     gap: 16px;
     align-self: stretch;
 }
-.footer_text
+.footer__text
 {
-    align-self: stretch;
+    display: flex;
+    flex-direction: column;
     color: #372D41;
     text-align: center;
     font-family: Poppins;
